@@ -1,3 +1,5 @@
+# AWS Lambda with AWS AppConfig example
 
-https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-integration-lambda-extensions.html
-https://docs.aws.amazon.com/lambda/latest/dg/lambda-extensions.html#using-extensions-config
+- AWS Lambda(Function URL)
+- AWS AppConfig Lambda Extension
+- AWS CDK(TypeScript)
