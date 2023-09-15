@@ -13,7 +13,6 @@ export const sample: APIGatewayProxyHandler = async (event, context) => {
   const resp = await fetch(`http://localhost:2772/applications/${appName}/environments/${env}/configurations/${profile}`);
   const flags: FeatureFlags = await resp.json();
 
-  console.log('@@@@@@@@@', flags);
   return {
     statusCode: 200,
     body: JSON.stringify({
